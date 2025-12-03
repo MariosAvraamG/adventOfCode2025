@@ -22,7 +22,7 @@ def extract_code(instructions):
     return code
 
 def main():
-    instructions = load_instructions('safe_instructions.txt')
+    instructions = load_instructions('day 1/safe_instructions.txt')
     code = extract_code(instructions)
     print(code)
 
